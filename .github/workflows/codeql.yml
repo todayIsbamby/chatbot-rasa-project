@@ -45,6 +45,7 @@ jobs:
       matrix:
         include:
           - language: javascript-typescript
+          - languege: ymal
           - language: python
           - language: go
           - language: csharp
