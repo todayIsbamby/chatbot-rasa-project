@@ -1,0 +1,274 @@
+[
+  {
+    "text": "บะบาย",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.907746434211731
+    }
+  },
+  {
+    "text": "บาย",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9979098439216614
+    }
+  },
+  {
+    "text": "ลาก่อน",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9999672174453735
+    }
+  },
+  {
+    "text": "ไปละนะคะ",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9996246099472046
+    }
+  },
+  {
+    "text": "ไปละครับ",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9999721050262451
+    }
+  },
+  {
+    "text": "บัย",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9725195169448853
+    }
+  },
+  {
+    "text": "ไปละงับ",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9999450445175171
+    }
+  },
+  {
+    "text": "ไว้เจอกันอีกน้าา",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.99125075340271
+    }
+  },
+  {
+    "text": "บ้ายบาย",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9990371465682983
+    }
+  },
+  {
+    "text": "ไว้เจอกันจ้าา",
+    "intent": "goodbye_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9972973465919495
+    }
+  },
+  {
+    "text": "ใช่ค่ะ",
+    "intent": "affirm_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9999815225601196
+    }
+  },
+  {
+    "text": "ใช่ครับ",
+    "intent": "affirm_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9999727010726929
+    }
+  },
+  {
+    "text": "เคค่า",
+    "intent": "affirm_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9969629645347595
+    }
+  },
+  {
+    "text": "เคค่ะ",
+    "intent": "affirm_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9999113082885742
+    }
+  },
+  {
+    "text": "โอเคค่ะ",
+    "intent": "affirm_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9999102354049683
+    }
+  },
+  {
+    "text": "โอเคครับ",
+    "intent": "affirm_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9998904466629028
+    }
+  },
+  {
+    "text": "ไม่",
+    "intent": "deny_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9966905117034912
+    }
+  },
+  {
+    "text": "ไม่อะ",
+    "intent": "deny_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9999798536300659
+    }
+  },
+  {
+    "text": "ไม่ค่ะ",
+    "intent": "deny_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9999878406524658
+    }
+  },
+  {
+    "text": "ไม่รู้",
+    "intent": "deny_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.8950298428535461
+    }
+  },
+  {
+    "text": "ไม่ทราบ",
+    "intent": "deny_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9987258315086365
+    }
+  },
+  {
+    "text": "ไม่แน่ใจ",
+    "intent": "deny_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.8892195224761963
+    }
+  },
+  {
+    "text": "เสียใจ",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.694354236125946
+    }
+  },
+  {
+    "text": "เสียใจจัง",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9928300976753235
+    }
+  },
+  {
+    "text": "เศร้าจัง",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9110985994338989
+    }
+  },
+  {
+    "text": "เศร้าอะ",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9999985694885254
+    }
+  },
+  {
+    "text": "เศร้ามาก",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "ฉันเสียใจมาก",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9999988079071045
+    }
+  },
+  {
+    "text": "เศร้ามากๆ",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9999988079071045
+    }
+  },
+  {
+    "text": "ไม่มีความสุขเยย",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9933277368545532
+    }
+  },
+  {
+    "text": "ไม่ดีเลย",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.9914665222167969
+    }
+  },
+  {
+    "text": "ไม่ค่อยดีเท่าไหร่",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "greet_th",
+      "confidence": 0.980891764163971
+    }
+  },
+  {
+    "text": "เศร้าที่สุด",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9999940395355225
+    }
+  },
+  {
+    "text": "เศร้าาาาาอ่าาา",
+    "intent": "mood_unhappy_th",
+    "intent_prediction": {
+      "name": "mood_great_th",
+      "confidence": 0.9942574501037598
+    }
+  }
+]

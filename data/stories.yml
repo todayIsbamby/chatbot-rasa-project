@@ -1,0 +1,386 @@
+version: "3.1"
+
+stories:
+
+- story: happy path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+#th--------------------------------------------------------------------------------------------------------------------------------------
+- story: happy path th
+  steps:
+    - intent: greet_th
+    - action: utter_greet_th
+    - intent: mood_great_th
+    - action: utter_happy_th
+
+
+- story: Farewell
+  steps:
+    - intent: greet_th
+    - action: utter_greet_th
+    - intent: goodbye_th
+    - action: utter_goodbye_th
+
+- story: Greet and Feel Great
+  steps:
+    - intent: greet_th
+    - action: utter_greet_th
+    - intent: mood_great_th
+    - action: utter_happy_th
+
+- story: Greet and Feel Unhappy
+  steps:
+    - intent: greet_th
+    - action: utter_greet_th
+    - intent: mood_unhappy_th
+    - action: utter_mood_unhappy_th
+
+- story: Greet and Affirmation
+  steps:
+    - intent: greet_th
+    - action: utter_greet_th
+    - intent: affirm_th
+    - action: utter_affirm_th
+
+- story: Greet and Denial
+  steps:
+    - intent: greet_th
+    - action: utter_greet_th
+    - intent: deny_th
+    - action: utter_deny_th
+
+- story: h1
+  steps:
+    - intent: H0000001
+    - action: utter_h1
+
+- story: h2
+  steps:
+    - intent: H0000002
+    - action: utter_h2
+
+- story: h3
+  steps:
+    - intent: H0000003
+    - action: utter_h3
+
+- story: h4
+  steps:
+    - intent: H0000004
+    - action: utter_h4
+
+- story: h5
+  steps:
+    - intent: H0000005
+    - action: utter_h5
+
+- story: h6
+  steps:
+    - intent: H0000006
+    - action: utter_h6
+
+- story: l1
+  steps:
+    - intent: L0000001
+    - action: utter_l1
+
+- story: l2
+  steps:
+    - intent: L0000002
+    - action: utter_l2
+
+- story: l3
+  steps:
+    - intent: L0000003
+    - action: utter_l3
+
+- story: l4
+  steps:
+    - intent: L0000004
+    - action: utter_l4
+
+- story: l5
+  steps:
+    - intent: L0000005
+    - action: utter_l5
+
+- story: l6
+  steps:
+    - intent: L0000006
+    - action: utter_l6
+
+- story: l7
+  steps:
+    - intent: L0000007
+    - action: utter_l7
+
+- story: l8
+  steps:
+    - intent: L0000008
+    - action: utter_l8
+
+- story: l9
+  steps:
+    - intent: L0000009
+    - action: utter_l9
+
+- story: l10
+  steps:
+    - intent: L0000010
+    - action: utter_l10
+
+- story: l11
+  steps:
+    - intent: L0000011
+    - action: utter_l11
+
+- story: l12
+  steps:
+    - intent: L0000012
+    - action: utter_l12
+
+- story: l13
+  steps:
+    - intent: L0000013
+    - action: utter_l13
+
+- story: l14
+  steps:
+    - intent: L0000014
+    - action: utter_l14
+
+- story: l15
+  steps:
+    - intent: L0000015
+    - action: utter_l15
+
+- story: l16
+  steps:
+    - intent: L0000016
+    - action: utter_l16
+
+- story: l17
+  steps:
+    - intent: L0000017
+    - action: utter_l17
+
+- story: l18
+  steps:
+    - intent: L0000018
+    - action: utter_l18
+
+- story: l19
+  steps:
+    - intent: L0000019
+    - action: utter_l19
+
+- story: l20
+  steps:
+    - intent: L0000020
+    - action: utter_l20
+
+- story: l21
+  steps:
+    - intent: L0000021
+    - action: utter_l21
+
+- story: l22
+  steps:
+    - intent: L0000022
+    - action: utter_l22
+
+- story: l23
+  steps:
+    - intent: L0000023
+    - action: utter_l23
+
+- story: l24
+  steps:
+    - intent: L0000024
+    - action: utter_l24
+
+- story: l25
+  steps:
+    - intent: L0000025
+    - action: utter_l25
+
+- story: l26
+  steps:
+    - intent: L0000026
+    - action: utter_l26
+
+- story: l27
+  steps:
+    - intent: L0000027
+    - action: utter_l27
+
+- story: l28
+  steps:
+    - intent: L0000028
+    - action: utter_l28
+
+- story: l29
+  steps:
+    - intent: L0000029
+    - action: utter_l29
+
+- story: l30
+  steps:
+    - intent: L0000030
+    - action: utter_l30
+
+- story: l31
+  steps:
+    - intent: L0000031
+    - action: utter_l31
+
+- story: l32
+  steps:
+    - intent: L0000032
+    - action: utter_l32
+
+- story: l33
+  steps:
+    - intent: L0000033
+    - action: utter_l33
+
+- story: a1
+  steps:
+    - intent: A0000001
+    - action: utter_a1
+
+- story: a2
+  steps:
+    - intent: A0000002
+    - action: utter_a2
+
+- story: a3
+  steps:
+    - intent: A0000003
+    - action: utter_a3
+
+- story: a4
+  steps:
+    - intent: A0000004
+    - action: utter_a4
+
+- story: o1
+  steps:
+    - intent: O0000001
+    - action: utter_o1
+
+- story: o2
+  steps:
+    - intent: O0000002
+    - action: utter_o2
+
+- story: o3
+  steps:
+    - intent: O0000003
+    - action: utter_o3
+
+- story: o4
+  steps:
+    - intent: O0000004
+    - action: utter_o4
+
+- story: s1
+  steps:
+    - intent: S0000001
+    - action: utter_s1
+
+- story: s2
+  steps:
+    - intent: S0000002
+    - action: utter_s2
+
+- story: s3
+  steps:
+    - intent: S0000003
+    - action: utter_s3
+
+- story: t1
+  steps:
+    - intent: T0000001
+    - action: utter_t1
+
+- story: t2
+  steps:
+    - intent: T0000002
+    - action: utter_t2
+
+- story: e1
+  steps:
+    - intent: E0000001
+    - action: utter_e1
+
+- story: e2
+  steps:
+    - intent: E0000002
+    - action: utter_e2
+
+- story: e3
+  steps:
+    - intent: E0000003
+    - action: utter_e3
+
+- story: e4
+  steps:
+    - intent: E0000004
+    - action: utter_e4
+
+- story: e5
+  steps:
+    - intent: E0000005
+    - action: utter_e5
+
+- story: e6
+  steps:
+    - intent: E0000006
+    - action: utter_e6
+
+- story: i1
+  steps:
+    - intent: I0000001
+    - action: utter_i1
+
+- story: i2
+  steps:
+    - intent: I0000002
+    - action: utter_i2
+
+- story: i3
+  steps:
+    - intent: I0000003
+    - action: utter_i3
+
+- story: i4
+  steps:
+    - intent: I0000004
+    - action: utter_i4
+

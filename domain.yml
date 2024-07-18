@@ -1,0 +1,321 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - greet_th
+  - mood_great_th
+  - goodbye_th
+  - affirm_th
+  - deny_th
+  - mood_unhappy_th
+  - holiday
+  - leave
+  - attendance
+  - over_time
+  - salary
+  - tax
+  - travel_expenses
+  - insurance
+  - H0000001
+  - H0000002
+  - H0000003
+  - H0000004
+  - H0000005
+  - H0000006
+  - L0000001
+  - L0000002
+  - L0000003
+  - L0000004
+  - L0000005
+  - L0000006
+  - L0000007
+  - L0000008
+  - L0000009
+  - L0000010
+  - L0000011
+  - L0000012
+  - L0000013
+  - L0000014
+  - L0000015
+  - L0000016
+  - L0000017
+  - L0000018
+  - L0000019
+  - L0000020
+  - L0000021
+  - L0000022
+  - L0000023
+  - L0000024
+  - L0000025
+  - L0000026
+  - L0000027
+  - L0000028
+  - L0000029
+  - L0000030
+  - L0000031
+  - L0000032
+  - L0000033
+  - A0000001
+  - A0000002
+  - A0000003
+  - A0000004
+  - O0000001
+  - O0000002
+  - O0000003
+  - O0000004
+  - S0000001
+  - S0000002
+  - S0000003
+  - T0000001
+  - T0000002
+  - E0000001
+  - E0000002
+  - E0000003
+  - E0000004
+  - E0000005
+  - E0000006
+  - I0000001
+  - I0000002
+  - I0000003
+  - I0000004
+
+
+
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_greet_th:
+    - text: "สวัสดีจ้าาาาาาาา มีอะไรให้ช่วยมั้ยยคะ?"
+
+  utter_happy_th:
+    - text: "ดีใจที่คุณมีความสุข! มีอะไรที่ฉันจะช่วยคุณได้ไหม?"
+
+  utter_deny_th:
+    - text: "ฉันสามารถช่วยอะไรคุณได้บ้าง?"
+
+  utter_affirm_th:
+    - text: "ดีมาก! มีอะไรจะสอบถามมุ้ยยยย"
+
+  utter_mood_unhappy_th:
+    - text: "ฉันเสียใจที่ทำให้คุณรู้สึกแบบนั้น มีอะไรที่ฉันสามารถทำเพื่อช่วยคุณได้บ้าง?"
+
+  utter_goodbye_th:
+    - text: "ขอให้โชคดีครับ/ค่ะ! หากต้องการความช่วยเหลือเพิ่มเติม ถามได้ตลอดจ้า"
+    
+  utter_h1:
+    - text: "H0000001"
+
+  utter_h2:
+    - text: "H0000002"
+
+  utter_h3:
+    - text: "H0000003"
+
+  utter_h4:
+    - text: "H0000004"
+
+  utter_h5:
+    - text: "H0000005"
+
+  utter_h6:
+    - text: "H0000006"
+
+  utter_l1:
+    - text: "L0000001"
+
+  utter_l2:
+    - text: "L0000002"
+
+  utter_l3:
+    - text: "L0000003"
+
+  utter_l4:
+    - text: "L0000004"
+
+  utter_l5:
+    - text: "L0000005"
+
+  utter_l6:
+    - text: "L0000006"
+
+  utter_l7:
+    - text: "L0000007"
+
+  utter_l8:
+    - text: "L0000008"
+
+  utter_l9:
+    - text: "L0000009"
+
+  utter_l10:
+    - text: "L0000010"
+
+  utter_l11:
+    - text: "L0000011"
+
+  utter_l12:
+    - text: "L0000012"
+
+  utter_l13:
+    - text: "L0000013"
+
+  utter_l14:
+    - text: "L0000014"
+
+  utter_l15:
+    - text: "L0000015"
+
+  utter_l16:
+    - text: "L0000016"
+
+  utter_l17:
+    - text: "L0000017"
+
+  utter_l18:
+    - text: "L0000018"
+
+  utter_l19:
+    - text: "L0000019"
+
+  utter_l20:
+    - text: "L0000020"
+
+  utter_l21:
+    - text: "L0000021"
+
+  utter_l22:
+    - text: "L0000022"
+
+  utter_l23:
+    - text: "L0000023"
+
+  utter_l24:
+    - text: "L0000024"
+
+  utter_l25:
+    - text: "L0000025"
+
+  utter_l26:
+    - text: "L0000026"
+
+  utter_l27:
+    - text: "L0000027"
+
+  utter_l28:
+    - text: "L0000028"
+
+  utter_l29:
+    - text: "L0000029"
+
+  utter_l30:
+    - text: "L0000030"
+
+  utter_l31:
+    - text: "L0000031"
+
+  utter_l32:
+    - text: "L0000032"
+
+  utter_l33:
+    - text: "L0000033"
+
+  utter_a1:
+    - text: "A0000001"
+
+  utter_a2:
+    - text: "A0000002"
+
+  utter_a3:
+    - text: "A0000003"
+
+  utter_a4:
+    - text: "A0000004"
+
+  utter_o1:
+    - text: "O0000001"
+
+  utter_o2:
+    - text: "O0000002"
+
+  utter_o3:
+    - text: "O0000003"
+
+  utter_o4:
+    - text: "O0000004"
+
+  utter_s1:
+    - text: "S0000001"
+
+  utter_s2:
+    - text: "S0000002"
+
+  utter_s3:
+    - text: "S0000003"
+
+  utter_t1:
+    - text: "T0000001"
+
+  utter_t2:
+    - text: "T0000002"
+
+  utter_e1:
+    - text: "E0000001"
+
+  utter_e2:
+    - text: "E0000002"
+
+  utter_e3:
+    - text: "E0000003"
+
+  utter_e4:
+    - text: "E0000004"
+
+  utter_e5:
+    - text: "E0000005"
+
+  utter_e6:
+    - text: "E0000006"
+
+  utter_i1:
+    - text: "I0000001"
+
+  utter_i2:
+    - text: "I0000002"
+
+  utter_i3:
+    - text: "I0000003"
+
+  utter_i4:
+    - text: "I0000004"
+
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

@@ -1,0 +1,35 @@
+# The config recipe.
+# https://rasa.com/docs/rasa/model-configuration/
+recipe: default.v1
+
+# The assistant project unique identifier
+# This default value must be replaced with a unique assistant name within your deployment
+assistant_id: 20240524-120245-warped-coffee
+
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+    epochs: 100
+    constrain_similarities: true  # เพิ่มบรรทัดนี้เพื่อเปิดใช้งาน constrain_similarities ใน DIETClassifier
+  - name: EntitySynonymMapper
+  # - name: FallbackClassifier
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true  # เปิดใช้งาน constrain_similarities ใน ResponseSelector
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  # - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true  # เพิ่มบรรทัดนี้เพื่อเปิดใช้งาน constrain_similarities ใน TEDPolicy
+  - name: RulePolicy
